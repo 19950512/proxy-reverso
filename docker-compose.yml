@@ -15,4 +15,4 @@ services:
 
 networks:
   proxy-net:
-    driver: bridge
+    external: true
